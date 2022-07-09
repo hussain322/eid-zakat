@@ -157,3 +157,81 @@ iframe{
     margin-bottom: 15px;
     font-size: 28px;
 }
+
+#photogallary{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.photogallary-content{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+.photogallary-image{
+    width: 32%;
+    margin: 10px auto;
+}
+
+.photogallary-image img{
+    width: 100%;
+}
+
+#zakat-found{
+    margin-top: 100px;
+}
+
+.zakat-found-content{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.zakat-found-item{
+    width: 30%;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    margin: 10px 20px;
+}
+
+.zakat-found-item img{
+    width: 100%;
+}
+
+.zakat-found-text{    
+    padding: 15px;
+}
+.zakat-found-text h3{    
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.zakat-found-text p{    
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.zakat-button{
+    font-size: 22px;
+    font-weight: 600;
+    color: tomato;
+}
+
+
+footer{
+    background-color: #1A1A1A;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer h2{
+    font-size: 30px;
+    color: blue;
+}
+
+footer p{
+    color: #fff;
+}
