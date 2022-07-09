@@ -17,12 +17,13 @@ p {
 
 /* CSS FOR SHORTCUT */
 .container {
-    width: 90%;
+    width: 85%;
     margin: 20px auto;
 }
 
 .row {
     display: flex;
+    justify-content: space-between;
 }
 
 .col-4 {
@@ -46,6 +47,7 @@ h2{
     font-weight: 700;
     line-height: 55px;
     font-size: 45px;
+    padding-bottom: 30px;
 }
 
 p{
@@ -53,9 +55,10 @@ p{
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
+    padding-bottom: 40px;
 }
 
-.link-butoon{
+.link-button{
     padding: 15px 30px;
     background-color: blue;
     color: #fff;
@@ -66,7 +69,7 @@ p{
     transition: .2s all ease-in-out;
 }
 
-.link-butoon:hover{
+.link-button:hover{
     background-color: navy;
 }
 
@@ -88,4 +91,69 @@ p{
 .header-content p{
     padding-bottom: 50px;
     color: #fff;
+}
+
+/* STYLE DONATION PART */
+
+#donation{
+    padding-top: 60px;
+}
+
+.donation-content{
+    padding-top: 75px;
+}
+
+.donation-video{ 
+    margin-right: -115px;
+}
+
+iframe{
+    border-radius: 5px;
+    
+}
+
+.donation-image img{
+    width: 85%;
+}
+
+#direct-help{
+    margin-top: 100px;
+}
+
+.direct-help-title{
+    text-align: center;
+    margin: 30px 25%;
+}
+
+.direct-help{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.direct-help-item{
+    width: 39%;
+    display: flex;
+    padding: 40px 60px 20px;
+    background-color: #d8d8f2;
+    border-radius: 4px;
+    margin: 10px auto;
+    transition: .2s all ease-in-out;
+}
+
+.direct-help-item:hover{
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+}
+
+.direct-help-image{
+    margin-right: 30px;
+}
+
+.direct-help-content{
+    width: 65%;
+}
+
+.direct-help-content h3{
+    margin-bottom: 15px;
+    font-size: 28px;
 }
